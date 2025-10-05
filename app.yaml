@@ -8,12 +8,12 @@ env:
   - name: SUPERSET_ADMIN_USERNAME
     value: "admin"
   - name: SUPERSET_ADMIN_PASSWORD
-    value: ""
+    value: "admin"
   - name: SUPERSET_ADMIN_EMAIL
-    value: "marvin.nahmias@alpura.com"
+    value: "mexmarv@gmail.com"
   - name: DATABRICKS_HOST
-    value: "https://adb-2975925680430827.7.azuredatabricks.net"
+    value: "https://DATABRICKS_HOST"
   - name: DATABRICKS_HTTP_PATH
-    value: "/sql/1.0/warehouses/5e20f044ce39cd0b"
+    value: "/sql/1.0/warehouses/DATABRICKS_PAT"
   - name: DATABRICKS_TOKEN
-    value: ""
+    value: "DATABRICKS_TOKEN"
