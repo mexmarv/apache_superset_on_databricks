@@ -1,0 +1,19 @@
+command:
+  - python
+  - boot.py
+
+env:
+  - name: SUPERSET_HOME
+    value: "/home/app/superset"
+  - name: SUPERSET_ADMIN_USERNAME
+    value: "admin"
+  - name: SUPERSET_ADMIN_PASSWORD
+    value: ""
+  - name: SUPERSET_ADMIN_EMAIL
+    value: "marvin.nahmias@alpura.com"
+  - name: DATABRICKS_HOST
+    value: "https://adb-2975925680430827.7.azuredatabricks.net"
+  - name: DATABRICKS_HTTP_PATH
+    value: "/sql/1.0/warehouses/5e20f044ce39cd0b"
+  - name: DATABRICKS_TOKEN
+    value: ""

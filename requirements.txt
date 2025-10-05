@@ -1,0 +1,8 @@
+apache-superset==5.0.0
+gunicorn
+gevent
+gevent-websocket
+databricks_sql_connector   # underscores, no version pin
+databricks-sqlalchemy      # no version pin
+marshmallow
+marshmallow-sqlalchemy
