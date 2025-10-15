@@ -51,7 +51,7 @@ This connection enables direct access to Unity Catalog objects such as:
 |------------|----------|
 | Apache Superset | 6.0.0rc1 |
 | SQLAlchemy | 2.0.30 |
-| Databricks SQL Connector | 4.0.0 |
+| Databricks SQL Connector | 4.0.5 |
 | Databricks SQLAlchemy | 2.0.8 |
 | Python | 3.11 |
 
