@@ -1,4 +1,4 @@
-apache-superset==5.0.0
+apache-superset==6.0.0rc1
 gunicorn
 gevent
 gevent-websocket
