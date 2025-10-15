@@ -1,6 +1,7 @@
 # Superset on Databricks App
 
 Apache Superset running directly as a Databricks App, fully integrated with your Databricks SQL Warehouse via the official `databricks-sqlalchemy` connector.
+apache-superset==6.0.0rc1
 
 ## Setup
 
@@ -48,7 +49,7 @@ This connection enables direct access to Unity Catalog objects such as:
 
 | Component | Version |
 |------------|----------|
-| Apache Superset | 5.0.0 |
+| Apache Superset | 6.0.0rc1 |
 | SQLAlchemy | 2.0.30 |
 | Databricks SQL Connector | 4.0.0 |
 | Databricks SQLAlchemy | 2.0.8 |
