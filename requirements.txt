@@ -1,18 +1,15 @@
+# --- Core ---
 apache-superset==6.0.0rc1
 
-# WSGI / workers (opcionales pero comunes en despliegue)
+# --- WSGI / Server ---
 gunicorn
 gevent
 gevent-websocket
 
-# Databricks: conector + dialecto SQLAlchemy 2.x (oficiales)
-databricks-sql-connector>=4.0.5,<5
-databricks-sqlalchemy>=2.0.4
+# --- Databricks (oficiales y compatibles con Superset 6) ---
+databricks-sql-connector>=4.0.0
+databricks-sqlalchemy>=2.0.0
 
-# (Opcional) Habilita APIs Arrow en el conector
-# databricks-sql-connector[pyarrow]>=4.0.5,<5
-
-# Estas dos ya vienen por dependencias de Superset; si no tienes un motivo,
-# es mejor NO fijarlas aquí para evitar conflictos de versiones:
-# marshmallow
-# marshmallow-sqlalchemy
+# --- Serialization / ORM ---
+marshmallow
+marshmallow-sqlalchemy
